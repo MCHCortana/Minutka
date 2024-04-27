@@ -3,7 +3,7 @@ console.log('funguju!');
 
 const alarmElement = document.querySelector('.alarm');
 
-const alarmRingFull = () => {
+const alarmRing = () => {
   alarmElement.classList.add('alarm--ring');
 };
 
